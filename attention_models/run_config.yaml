@@ -1,0 +1,23 @@
+# Configuration of hyper parameters for run
+
+coin: 'BTC'
+target_features: "insert data path here e.g. run_variables_full_all_ret1h"
+sample: '10m'
+data_path: "insert data path here"
+loss: 'mean_squared_error'
+num_layers: 3
+num_nodes: 12
+frac_dropout: 0.0
+num_epochs: 10
+batch_size: 128
+lookback: 10
+step: 1
+delay: 0
+#steps_per_epoch_override:
+input_attention: True
+temporal_attention: True
+attention_style: "luong"
+#verbosity
+validation_freq: 10
+model_type: "simple"
+learning_rate: 0.001

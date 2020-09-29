@@ -1,0 +1,1 @@
+api_key = 'insert CryptoCompare API key here'
